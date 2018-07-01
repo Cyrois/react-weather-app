@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+select {
+  margin: 1em;
+  width: 20em;
+  height: 4em;
+}
+
+.weather-forecast-icon {
+  display: inline-block;
+  margin: 2em;
+  border: 2px dashed lightblue;
+  padding: 2em;
+}
+
+.weather-sprite {
+  width: 110px;
+  height: 95px;
+  margin: auto;
+}
+
+.sunny, .weather-code-32, .weather-code-33, .weather-code-43, .weather-code-34 {
+  background: url(images/weatherImgs.jpg) 0 0;
+}
+
+.rain, .weather-code-11, .weather-code-12 {
+  background: url(images/weatherImgs.jpg) 0 -90px;
+}
+
+.scattered-showers, .weather-code-9, .weather-code-40 {
+  background: url(images/weatherImgs.jpg) -110px 0;
+}
+
+.cloudy, .weather-code-26, .weather-code-27, .weather-code-28, .weather-code-29, .weather-code-30, .weather-code-19, .weather-code-20, .weather-code-21, .weather-code-22, .weather-code-23 {
+  background: url(images/weatherImgs.jpg) -220px 0;
+}
+
+.scattered-thunderstorms, .weather-code-47, .weather-code-1, .weather-code-3, .weather-code-4, .weather-code-37, .weather-code-38, .weather-code-39, .weather-code-45 {
+  background: url(images/weatherImgs.jpg) 0 -185px;
+}
+
+.rain-and-snow, .weather-code-35, .weather-code-5, .weather-code-6, .weather-code-8, .weather-code-10 {
+  background: url(images/weatherImgs.jpg) -220px -185px;
+}
+
+.snow-showers, .weather-code-46, .weather-code-42, .weather-code-41, .weather-code-43, .weather-code-13, .weather-code-14, .weather-code-15, .weather-code-16, .weather-code-17, .weather-code-18, .weather-code-35 {
+  background: url(images/weatherImgs.jpg) -110px -185px;
+}
+
+.partly-cloudy, .weather-code-44 {
+  background: url(images/weatherImgs.jpg) -330px 0;
+}
+
+.weather-code-0, .weather-code-2, .weather-code-24 {
+  background: url(images/weatherImgs.jpg) -330px -270px;
+}
+
+.weather-code-25, .weather-code-36 {
+  background: url(images/weatherImgs.jpg) 0 -270px;
+}
